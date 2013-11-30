@@ -26,9 +26,10 @@
 		
 		<div class="gravatar">
 			<?php 
-				// grab admin email and their photo
-				$admin_email = get_option('admin_email');
-				echo get_avatar( $admin_email, 100 ); 
+				// Get the desired user's email and photo
+				$user_info = get_userdata(2);
+				$user_email = $user_info->user_email;
+				echo get_avatar( $user_email, 100 ); 
 			?>
 		</div><!--/ author -->
 		
