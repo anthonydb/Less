@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
 /*
 Theme Name: Less
 Theme URI: http://lessmade.com/themes/less
@@ -333,7 +334,7 @@ select {
   padding: 0;
   margin: 0;
   background: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   line-height: 26.64px;
   font-size: 18px;
   font-size: 1.8rem;
@@ -484,15 +485,15 @@ header #brand {
   margin-top: 22px;
 }
 header #brand h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 900;
   color: #565656;
   line-height: 23.68px;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 24px;
+  font-size: 2.4rem;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 }
 header #brand h1 a {
   color: #565656;
@@ -537,7 +538,8 @@ article .title {
   line-height: 56.24px;
   font-size: 38px;
   font-size: 3.8rem;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: -2px;
 }
 article .title a {
   text-decoration: none;
@@ -562,7 +564,8 @@ article .the-content a {
   text-decoration: none;
 }
 article .the-content p {
-  color: #787878;
+  /*color: #787878;*/
+  color: #242424;
 }
 article .the-content img {
   width: 100%;
