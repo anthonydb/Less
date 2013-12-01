@@ -572,9 +572,9 @@ article .the-content img {
   height: auto;
 }
 article .meta {
-  line-height: 14.8px;
-  font-size: 10px;
-  font-size: 1rem;
+  line-height: 15px;
+  font-size: 12px;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .9px;
 }

@@ -38,7 +38,23 @@
 		</div><!-- /brand -->
 	
 		<nav role="navigation" class="site-navigation main-navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<ul>
+				<li class="page_item page-item-2">
+					<a href="http://www.anthonydebarros.com/about/">About</a>
+				</li>
+				<li class="page_item page-item-9">
+					<a href="http://www.anthonydebarros.com/clips/">Clips</a>
+				</li>
+				<li class="page_item">
+					<a href="http://www.github.com/anthonydb/">GitHub</a>
+				</li>
+				<li class="page_item">
+					<a href="http://www.anthonydb.com">anthonydb.com</a>
+				</li>
+				<li class="page_item page-item-526">
+					<a href="http://www.anthonydebarros.com/contact/">Contact</a>
+				</li>
+			</ul>
 		</nav><!-- .site-navigation .main-navigation -->
 		
 		<div class="clear"></div>
@@ -87,7 +103,7 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); ?></div>
+							<div class="category"><?php the_time('M j, Y'); ?><?php _e(' &#124; '); ?> <?php the_category(', '); ?></div>
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->
 						
@@ -145,7 +161,7 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); ?></div>
+							<div class="category"><?php the_time('M j, Y'); ?><?php _e(' &#124; '); ?> <?php the_category(', '); ?></div>
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->						
 						
