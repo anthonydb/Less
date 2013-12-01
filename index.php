@@ -45,14 +45,14 @@
 				<li class="page_item page-item-9">
 					<a href="http://www.anthonydebarros.com/clips/">Clips</a>
 				</li>
+				<li class="page_item page-item-526">
+					<a href="http://www.anthonydebarros.com/contact/">Contact</a>
+				</li>
 				<li class="page_item">
 					<a href="http://www.github.com/anthonydb/">GitHub</a>
 				</li>
 				<li class="page_item">
-					<a href="http://www.anthonydb.com">anthonydb.com</a>
-				</li>
-				<li class="page_item page-item-526">
-					<a href="http://www.anthonydebarros.com/contact/">Contact</a>
+					<a href="http://www.anthonydb.com">Sandbox</a>
 				</li>
 			</ul>
 		</nav><!-- .site-navigation .main-navigation -->

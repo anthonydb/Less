@@ -711,3 +711,34 @@ html[xmlns] .clearfix {
     width: 100%;
   }
 }
+
+/* Index
+---------------------------------------------------------------*/
+.front-post
+{
+   margin: 0;
+   padding: 0 0 0 0;
+   font-size: 14px;
+}
+
+.front-post h2
+{
+   font-family: 'PT Sans', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   letter-spacing: -1px;
+}
+
+.front-post h2 a
+{
+   text-decoration: underline;
+   color: #000000;
+}
+
+.front-post-label
+{
+   font-family: 'PT Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px 0 0 0;
+}
