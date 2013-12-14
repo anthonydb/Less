@@ -35,3 +35,9 @@ function less_scripts()  {
   
 }
 add_action( 'wp_enqueue_scripts', 'less_scripts' );
+
+/*-----------------------------------------------------------------------------------*/
+/* Get rid of Jetpack open graph tags (conflicts with other plugins)
+/*-----------------------------------------------------------------------------------*/
+
+remove_action( 'wp_head', 'jetpack_og_tags' );
