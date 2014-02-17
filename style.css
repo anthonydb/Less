@@ -666,7 +666,8 @@ footer {
 }
 /* Misc & mixens
 -------------------------------------------------------------- */
-/* Jetpack Gallery */.gallery .gallery-item {
+/* Jetpack Gallery */
+.gallery .gallery-item {
   margin-top: 0 !important;
 }
 .gallery img {
@@ -698,6 +699,10 @@ html[xmlns] .clearfix {
 * html .clearfix {
   height: 1%;
 }
+.wp-caption {
+  max-width: 100%;
+}
+
 /* Media Queries for responsivenessssssss
 -------------------------------------------------------------- */
 @media (max-width: 767px) {
