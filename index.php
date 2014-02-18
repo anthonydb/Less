@@ -45,6 +45,9 @@
 				<li class="page_item page-item-2265">
 					<a href="http://www.anthonydebarros.com/awards/">Awards</a>
 				</li>
+                <li class="page_item">
+                    <a href="http://www.anthonydebarros.com/index/">Index</a>
+                </li>
 				<li class="page_item">
 					<a href="http://www.github.com/anthonydb/">GitHub</a>
 				</li>
@@ -114,7 +117,7 @@
 
 				<?php endwhile; ?>
 				
-				<!-- pagintation -->
+				<!-- pagination -->
 				<div id="pagination" class="clearfix">
 					<div class="past-page"><?php previous_posts_link( 'Newer &raquo;' ); ?></div>
 					<div class="next-page"><?php next_posts_link( ' &laquo; Older' ); ?></div>
@@ -175,7 +178,7 @@
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template
 					if ( comments_open() || '0' != get_comments_number() )
-						comments_template( 'comments.php', true );
+						comments_template( '', true );
 				?>
 
 

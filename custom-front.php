@@ -72,9 +72,8 @@ Template Name: Custom Front
     <div id="primary">
         <div id="content" role="main">
 
-        <div class="front-post">
-                <b>Selected articles</b> from my <a href="http://www.anthonydebarros.com">site</a>: 
-        </div>
+        <article class="post">
+        <h1 class="title">Selected articles:</h1> 
             <div class="front-post-label">Python:</div>
                     <?php query_posts('post_type=post&post_status=publish&cat=18&posts_per_page=20&paged='. get_query_var('paged')); ?>
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
@@ -116,7 +115,7 @@ Template Name: Custom Front
                     </div>
                     <?php endwhile; endif; wp_reset_query(); ?>
 
-
+        </article>
         </div><!-- #content .site-content -->
     </div><!-- #primary .content-area -->
 

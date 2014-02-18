@@ -664,7 +664,6 @@ footer {
   padding-bottom: 40px;
   font-size: 12px;
 }
-*/
 /* Misc & mixens
 -------------------------------------------------------------- */
 /* Jetpack Gallery */
@@ -729,18 +728,18 @@ html[xmlns] .clearfix {
 
 .front-post h2
 {
-   font-family: 'PT Sans', sans-serif;
+   /*font-family: 'PT Sans', sans-serif;*/
    font-weight: 400;
    font-size: 20px;
    letter-spacing: -1px;
 }
 
-.front-post h2 a
+/*.front-post h2 a
 {
    text-decoration: underline;
    color: #000000;
 }
-
+*/
 .front-post-label
 {
    font-family: 'PT Sans', sans-serif;
