@@ -732,6 +732,7 @@ html[xmlns] .clearfix {
    font-weight: 400;
    font-size: 20px;
    letter-spacing: -1px;
+   line-height: 130%;
 }
 
 /*.front-post h2 a
@@ -742,7 +743,7 @@ html[xmlns] .clearfix {
 */
 .front-post-label
 {
-   font-family: 'PT Sans', sans-serif;
+   /*font-family: 'PT Sans', sans-serif;*/
    font-size: 20px;
    font-weight: bold;
    padding: 20px 0 0 0;
