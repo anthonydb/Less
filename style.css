@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200); 
 /*
 Theme Name: Less
 Theme URI: http://lessmade.com/themes/less
@@ -349,7 +350,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  font-family: "Arvo", Georgia, serif;
+  font-family: "Raleway", Georgia, serif;
 }
 h1 {
   line-height: 71.03999999999999px;
@@ -539,7 +540,7 @@ article .title {
   font-size: 38px;
   font-size: 3.8rem;
   font-weight: 400;
-  letter-spacing: -2px;
+/*  letter-spacing: -2px; */
 }
 article .title a {
   text-decoration: none;
