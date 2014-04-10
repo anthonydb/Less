@@ -96,7 +96,7 @@
 						<div class="post-meta">
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
-									<?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) ); ?>
+									<?php the_time('M j, Y'); ?><?php _e(' &#124; '); ?> <?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) ); ?>
 								</span>
 							<?php endif; ?>
 						
@@ -109,7 +109,7 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<div class="category"><?php the_time('M j, Y'); ?><?php _e(' &#124; '); ?> <?php the_category(', '); ?></div>
+							<div class="category"><?php the_category(', '); ?></div>
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->
 						
@@ -154,7 +154,7 @@
 						<div class="post-meta">
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
-									<?php comments_popup_link( __( 'Comment', 'less' ), __( '1 Comment', 'less' ), __( '% Comments', 'less' ) ); ?>
+									<?php the_time('M j, Y'); ?><?php _e(' &#124; '); ?> <?php comments_popup_link( __( 'Comment', 'less' ), __( '1 Comment', 'less' ), __( '% Comments', 'less' ) ); ?>
 								</span>
 							<?php endif; ?>
 						
@@ -167,7 +167,7 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<div class="category"><?php the_time('M j, Y'); ?><?php _e(' &#124; '); ?> <?php the_category(', '); ?></div>
+							<div class="category"><?php the_category(', '); ?></div>
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->						
 						
