@@ -85,7 +85,7 @@ Template Name: Custom Front
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <div class="front-post" id="post-<?php the_ID(); ?>">
                         <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a>
-                        <span style="text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
+                        <span style="text-transform: uppercase; text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
                     </div>
                     <?php endwhile; endif; wp_reset_query(); ?>
             <div class="front-post-label">SQL:</div>
@@ -93,7 +93,7 @@ Template Name: Custom Front
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <div class="front-post" id="post-<?php the_ID(); ?>">
                         <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a>
-                        <span style="text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
+                        <span style="text-transform: uppercase; text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
                     </div>
                     <?php endwhile; endif; wp_reset_query(); ?>
             <div class="front-post-label">Journalism:</div>
@@ -101,7 +101,7 @@ Template Name: Custom Front
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <div class="front-post" id="post-<?php the_ID(); ?>">
                         <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a>
-                        <span style="text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
+                        <span style="text-transform: uppercase; text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
                     </div>
                     <?php endwhile; endif; wp_reset_query(); ?>
             <div class="front-post-label">Data analysis:</div>
@@ -109,7 +109,7 @@ Template Name: Custom Front
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <div class="front-post" id="post-<?php the_ID(); ?>">
                         <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a>
-                        <span style="text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
+                        <span style="text-transform: uppercase; text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
                     </div>
                     <?php endwhile; endif; wp_reset_query(); ?>
             <div class="front-post-label">Life:</div>
@@ -117,7 +117,7 @@ Template Name: Custom Front
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
                     <div class="front-post" id="post-<?php the_ID(); ?>">
                         <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title();?></a>
-                        <span style="text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
+                        <span style="text-transform: uppercase; text-decoration: none; font-size: 12px; color: #96A08D";> <?php the_time('m.d.Y'); ?> | <?php comments_number(' 0 c', ' 1 c', ' % c'); ?></span></h2>
                     </div>
                     <?php endwhile; endif; wp_reset_query(); ?>
 
