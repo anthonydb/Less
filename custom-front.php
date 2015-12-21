@@ -28,20 +28,20 @@ Template Name: Custom Front
 
 <header id="masthead" class="site-header" role="banner">
     <div class="container">
-        
+
         <div class="gravatar">
-            <?php 
+            <?php
                 // Get the desired user's email and photo
                 $user_info = get_userdata(2);
                 $user_email = $user_info->user_email;
-                echo get_avatar( $user_email, 100 ); 
+                echo get_avatar( $user_email, 100 );
             ?>
         </div><!--/ author -->
-        
+
         <div id="brand">
             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a> &#58;&#58; <span><?php echo get_bloginfo( 'description' ); ?></span></h1>
         </div><!-- /brand -->
-    
+
         <nav role="navigation" class="site-navigation main-navigation">
             <ul>
                 <li class="page_item page-item-2">
@@ -67,10 +67,10 @@ Template Name: Custom Front
                 </li>
             </ul>
         </nav><!-- .site-navigation .main-navigation -->
-        
+
         <div class="clear"></div>
     </div><!--/container -->
-        
+
 </header><!-- #masthead .site-header -->
 
 <div class="container">
@@ -79,7 +79,7 @@ Template Name: Custom Front
         <div id="content" role="main">
 
         <article class="post">
-        <h1 class="title">Selected articles:</h1> 
+        <h1 class="title">Selected articles:</h1>
             <div class="front-post-label">Python:</div>
                     <?php query_posts('post_type=post&post_status=publish&cat=18&posts_per_page=20&paged='. get_query_var('paged')); ?>
                     <?php if (have_posts()) : while (have_posts()) : the_post();?>
@@ -136,8 +136,8 @@ Template Name: Custom Front
 <footer class="site-footer" role="contentinfo">
     <div class="site-info container">
         <?php do_action( 'break_credits' ); ?>
-        <p>Copyright MMXIV Anthony DeBarros.<br />
-        I'm <a href="https://github.com/anthonydb/Less">hacking</a> on the <a href="http://lessmade.com/themes/less" rel="theme">LESS</a> theme by <a href="http://jarederickson.com" rel="designer">Jared Erickson</a>. 
+        <p>Copyright 2009-2016 Anthony DeBarros<br />
+        I'm <a href="https://github.com/anthonydb/Less">hacking</a> on the <a href="http://lessmade.com/themes/less" rel="theme">LESS</a> theme by <a href="http://jarederickson.com" rel="designer">Jared Erickson</a>.
         Hosting is by <a href="http://www.webfaction.com/signup?affiliate=adebarros" >WebFaction</a>. </p>
     </div><!-- .site-info -->
 </footer><!-- #colophon .site-footer -->
